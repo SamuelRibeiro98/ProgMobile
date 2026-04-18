@@ -28,21 +28,29 @@ Par défaut si on choisit "controler ma maison" l'id de votre maison est transmi
 
 ### Page du choix du type d'appareil à contrôler
 L'utilisateur peut choisir le type d'appareil qu'il souhaite contrôler parmis:
+
 -fenêtres
+
 -volets
+
 -portes de garage
 
 Attention: Si la maison n'est pas ouverte dans un navigateur l'utilisateur est renvoyé au menu avec un message pour le prévenir dans un pop-up
 
 ### Page du contrôle des appareils
 La page est divisée en deux section:
+
 -La première permet de contrôler l'ensemble des appareils du type choisis
+
 -La seconde contient la liste des appareils filrée sur le type choisit avec des boutons individuels pour les contrôler.
 
 ## Gérer les droits
 Cette page permet:
+
 -de voir qui à des droits d'accès à votre maison
+
 -de donner des droits sur sa maison à d'autres utilisateurs
+
 -de leur retirer les droits
 
 ## Contrôler d'autres maison
