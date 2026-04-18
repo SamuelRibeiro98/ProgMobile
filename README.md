@@ -1,3 +1,5 @@
+Samuel RIBEIRO Master 1 Informatique UBE
+
 # Fonctionnalités
 
 L'ensemble de l'application possède des layouts verticaux et horizontaux pour la rendre plus agréable à utiliser.
