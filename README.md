@@ -4,7 +4,9 @@ L'ensemble de l'application possède des layouts verticaux et horizontaux pour l
 
 ## Page d'accueil
 Permet de :
+
 -se connecter
+
 -accéder à la page d'inscription
 
 peut se connecter automatiquement si un token à été sauvegardé d'une précédente connexion
