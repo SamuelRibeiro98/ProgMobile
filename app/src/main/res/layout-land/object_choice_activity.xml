@@ -21,8 +21,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="200dp"
             android:layout_height="match_parent"
-            app:cardCornerRadius="50dp"
-            app:cardElevation="12dp">
+            app:cardCornerRadius="50dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnShutters"
@@ -49,8 +48,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            app:cardCornerRadius="50dp"
-            app:cardElevation="12dp">
+            app:cardCornerRadius="50dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnLights"
@@ -75,8 +73,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="200dp"
             android:layout_height="match_parent"
-            app:cardCornerRadius="50dp"
-            app:cardElevation="12dp">
+            app:cardCornerRadius="50dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnGarages"

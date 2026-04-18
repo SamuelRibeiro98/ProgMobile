@@ -23,8 +23,10 @@
             android:layout_width="330dp"
             android:layout_height="150dp"
             android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="50dp"
-            app:cardElevation="12dp" >
+            app:cardElevation="12dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnShutters"
@@ -34,8 +36,8 @@
                 android:onClick="controlShutters"
                 android:paddingTop="20dp"
                 android:text="@string/ctrlVolets"
-                android:textAllCaps="false"
 
+                android:textAllCaps="false"
                 android:textColor="#2551AF"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -50,8 +52,9 @@
             android:layout_width="330dp"
             android:layout_height="150dp"
             android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="50dp"
-            app:cardElevation="12dp" >
+            app:cardElevation="12dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnLights"
