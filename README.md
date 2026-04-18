@@ -1,4 +1,4 @@
-#Fonctionnalités
+# Fonctionnalités
 
 L'ensemble de l'application possède des layouts verticaux et horizontaux pour la rendre plus agréable à utiliser.
 
