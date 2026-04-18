@@ -1,6 +1,7 @@
 # Fonctionnalités
 
 L'ensemble de l'application possède des layouts verticaux et horizontaux pour la rendre plus agréable à utiliser.
+Le mode sombre ne perturbe pas l'affichage de l'application et de ses composants
 
 ## Page d'accueil
 Permet de :
