@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="676dp"
-        android:layout_height="231dp"
+        android:layout_width="671dp"
+        android:layout_height="224dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="16dp"
@@ -126,16 +126,16 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnDeconnexion"
-        android:layout_width="171dp"
-        android:layout_height="64dp"
+        android:layout_width="174dp"
+        android:layout_height="52dp"
         android:layout_marginTop="5dp"
+        android:onClick="logout"
         android:paddingTop="10dp"
         android:text="@string/btnDeconnexion"
         android:textAllCaps="false"
         android:textColor="#2551AF"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:onClick="logout"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
