@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00D1F0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="430dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="265dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Choisissez une maison :"
+            android:textColor="#2551AF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/otherHousesList"
+            android:layout_width="363dp"
+            android:layout_height="282dp"
+            android:divider="?attr/selectableItemBackground"
+            android:dividerHeight="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRetour4"
+        android:layout_width="133dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="50dp"
+        android:onClick="goBack"
+        android:paddingTop="10dp"
+        android:text="@string/btnRetour"
+        android:textAllCaps="false"
+        android:textColor="#2551AF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PolyHome</string>
+    <string name="ctrlMaison">Contrôler la maison</string>
+    <string name="ctrlVolets">Contrôler les volets</string>
+    <string name="ctrlLumieres">Contrôler les lumières</string>
+    <string name="ctrlGarages">Contrôler les portes de garage</string>
+    <string name="donnerDroits">Gerer les droits d\'accès</string>
+    <string name="accesAutresMaisons">Accéder à d\'autres maisons</string>
+    <string name="btnDeconnexion">Se déconnecter</string>
+    <string name="btnRetour">Retour</string>
+    <string name="titreMenu">Que souhaitez vous faire ?</string>
+    <string name="descriptionLogo">Logo de l\'application</string>
+</resources>

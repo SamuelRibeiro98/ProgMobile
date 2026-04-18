@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00D1F0">
+
+    <LinearLayout
+        android:layout_width="688dp"
+        android:layout_height="369dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="201dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                app:cardCornerRadius="30dp"
+                app:contentPaddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="209dp"
+                        android:layout_height="41dp"
+                        android:gravity="center"
+                        android:text="Donner des droits"
+                        android:textColor="#2551AF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="297dp"
+                        android:layout_height="30dp"
+                        android:text="Login"
+                        android:textColor="#2551AF"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="293dp"
+                        android:layout_height="71dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/inputUserLogin"
+                            android:layout_width="282dp"
+                            android:layout_height="56dp"
+                            android:inputType="textPersonName" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/btnAddAccess"
+                        android:layout_width="191dp"
+                        android:layout_height="wrap_content"
+                        android:text="Donner des droits d'accès" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRetour3"
+                android:layout_width="161dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="10dp"
+                android:onClick="goBack"
+                android:paddingTop="10dp"
+                android:text="@string/btnRetour"
+                android:textAllCaps="false"
+                android:textColor="#2551AF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="318dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Utilisateurs ayant accès à votre maison:"
+                android:textColor="#2551AF"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/listRightsUsers"
+                android:layout_width="match_parent"
+                android:layout_height="279dp"
+                android:background="#FFFFFF">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
